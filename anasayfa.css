@@ -1,0 +1,25 @@
+body {
+  background-color:azure;  
+}
+h3{
+  text-align: center;
+  color:black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: underline;
+}
+dd , dt{
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:black;
+}
+p {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color:black;
+}
+footer{
+	text-align: end;
+	padding-right:20px;
+  }
+
+  
