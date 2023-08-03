@@ -1,0 +1,43 @@
+body{
+    
+    background-color: rgba(245, 238, 238, 0.986);  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.baslik{
+    color:chocolate;
+    font-style: italic;
+    font-family: fantasy;
+}
+.baslik2{
+    color:chocolate;
+}
+u{
+    color: chocolate;
+}
+
+.baslik3{
+    color: chocolate;
+    text-shadow: 0px 4px 4px rgba(16, 16, 22, 0.438); ;
+}
+.art{
+    background-color: rgba(43, 42, 42, 0.986);  
+    margin: 10px auto;
+    padding: 20px 50px;
+}
+hr{
+    color: rgb(233, 224, 224);
+}
+a:hover{
+    color: black;
+}
+p{
+color: rgb(13, 13, 14);
+text-align: justify; 
+}
+
+
+footer{
+	text-align: end;
+	padding-right:20px;
+}
