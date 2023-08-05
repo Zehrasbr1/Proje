@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Proje Ödevi">
+<meta name="keywords" content="giriş sayfası">
+<meta name="author" content="Zehra Sabur">
+<title>LOG IN</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+<link rel="stylesheet" type="text/css" href="giris.css" />
+</head>
+
+
+<body>
+    <div class="login-form">
+        <form action="giris.php" method="post">
+         <h2 class="text-center">▻ LOG IN◅</h2>
+           
+        <div class="form-group">
+            <input type="email" class="form-control" id="Username" name="Username" placeholder="Username(Username@sakarya.edu.tr)" required="required">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" id="Password" name="Password" placeholder="Password" required="required">
+            <div class="display-4" id="hatalışifre"></div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block btn-sm active" onclick="kontrol()">Log in</button>
+        </div> 
+        <footer class="text-danger small">Giriş yapmak için lütfen İlgili alanları doldurunuz.</footer> 
+        <footer class="text-danger small">(Please fill in the relevant fields to login.)</footer> 
+        <div class="display-4 text-danger small" id="hatalı"></div>
+</form>
+    </div>
+   
+
+
+ <script>
+function kontrol()
+{ 
+  if(username!="b221210100@sakarya.edu.tr" || password!="b221210100")
+  {
+      document.getElementById("hatalı").innerHTML= "Yanlış kullanıcı adı veya şifre girdiniz.";
+  }
+  else{}
+  }
+
+ </script>   
+</body>
+</html>                                	
