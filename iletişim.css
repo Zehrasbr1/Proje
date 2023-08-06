@@ -1,0 +1,24 @@
+body {
+    background-image: url(arka.jpg);
+    background-color: #1f1e1e56;  
+}
+span{
+    color: red;
+    font-size:smaller;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+h2{
+    background-color:black;
+    opacity: 0.6;
+}
+label{
+    color:#f71c40ea;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+footer{
+	text-align: end;
+	padding-right:20px;
+  }
+  
